@@ -163,19 +163,15 @@ map.on('click', 'collis-hex-fill', (e) => {
 
 //Declare arrayy variables for labels and colours
 const legendlabels = [
-    '0-100,000',
-    '100,000-500,000',
-    '500,000-1,000,000',
-    '1,000,000-5,000,000',
-    '>5,000,000'
+    '0-10',
+    '10-25', 
+    '>25', 
 ];
 
 const legendcolours = [
-    '#fd8d3c',
-    '#fc4e2a',
-    '#e31a1c',
-    '#bd0026',
-    '#800026'
+    '#00FFFF',
+    '#FF1493',
+    '#FF6347',
 ];
 
 //Declare legend variable using legend div tag
